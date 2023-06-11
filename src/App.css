@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.no-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.no-link-salmon {
+  text-decoration: none !important;
+  color: salmon !important;
+}
+
+.btn-salmon {
+  background-color: salmon !important;
+}
+.bg-black {
+  background-color: black !important;
+}
+
+.__nav-aim li:first-child a:hover {
+  color: salmon !important;
+}
+.__nav-aim li:nth-child(2) a:hover {
+  color: salmon !important;
+  
+}
+
+
+/* Carousel custom */
+.__carousel-custom {
+  height: 300px !important;
+}
+
+.carousel-item {
+  height: 100% !important;
+  background-color: black !important;
+}
+
+.carousel-item img {
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+
+/* card product */
+.__card-custom {
+  height: 400px !important;
+}
+.__card-custom img {
+  height: 70% !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+}
+
+
+/* footer */
+.footer-main {
+  margin-top: 90px !important;
+  padding: 80px 0 80px;
+}
+
+
+/* search placeholder */
+.display-product input::placeholder {
+  text-align: end !important;
+}
