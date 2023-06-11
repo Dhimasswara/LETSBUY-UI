@@ -52,7 +52,7 @@ const Login = () => {
         <div className="container">
             <div class="min-vh-100 d-flex justify-content-center align-items-center ">
                 <div className="row w-100 justify-content-center">
-                    <div className="col-xl-3 col-6">
+                    <div className="col-xl-3 col-10 col-md-6">
                         <h4 className='mb-5 border-bottom pb-2 text-center'>Login</h4>
                         <form onSubmit={loginHandler} >
                             {error && (

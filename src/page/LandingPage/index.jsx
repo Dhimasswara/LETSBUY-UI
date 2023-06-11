@@ -24,10 +24,6 @@ const LandingPage = () => {
     const firstPostIndex = lastPostIndex - postsPerPage;
     const currentPosts = product?.slice(firstPostIndex, lastPostIndex);
 
-    // console.log(currentPosts);
-
-
-
 
     return (
         <Layout>
@@ -93,7 +89,7 @@ const LandingPage = () => {
                         {/* {currentPosts?.length > 0 ? 
                         <> */}
                             {currentPosts?.map(p => (
-                            <div className="col-3 mb-3">
+                            <div className="col-12 col-md-6 col-3 mb-3">
                                 <div className="card __card-custom">
                                     <img src={p?.photo} alt="" />
                                     <div className="rate ps-2 pt-3 pb-2">
