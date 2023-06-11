@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { useUserRegisterMutation } from '../../features/auth/authApi'
 import { useNavigate } from 'react-router-dom'
 import { showLoading, failedLoading, successLoading } from '../../common/loadingHandler'
+import Swal from 'sweetalert2'
 
 const Register = () => {
 
