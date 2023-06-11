@@ -71,17 +71,23 @@ const LandingPage = () => {
 
             <section className='mt-5'>
                 <div className="display-product">
-                    <div className="header d-flex justify-content-between">
-                        <span>
-                            <h3>New's Product</h3>
-                            <p className='p-0 m-0'>newest product from extra feels</p>
-                        </span>
-                        <span className='d-flex align-items-end'>
-                            <form className="d-flex " role="search">
-                                <input className="form-control me-2 rounded" type="search" placeholder="search" aria-label="Search" onChange={(e) => setSearch(e.target.value)}
-                                />
-                            </form>
-                        </span>
+                    <div className="header">
+                        <div className="row">
+                            <div className="col-md-6 col-12">
+                                <span>
+                                    <h3>New's Product</h3>
+                                    <p className='p-0 m-0'>newest product from extra feels</p>
+                                </span>
+                            </div>
+                            <div className="col-md-6 col-12 d-flex align-items-end justify-content-end mt-4 mt-md-0">
+                                {/* <span className='d-flex align-items-end'> */}
+                                    <form className="d-grid w-100" role="search">
+                                        <input className="form-control me-2 rounded" type="search" placeholder="search" aria-label="Search" onChange={(e) => setSearch(e.target.value)}
+                                        />
+                                    </form>
+                                {/* </span> */}
+                            </div>
+                        </div>
                     </div>
 
                     <div className="cardss mt-5">

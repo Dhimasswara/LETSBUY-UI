@@ -60,7 +60,6 @@ const Navbar = () => {
                                     <div className='no-link d-flex align-items-center text-light'>
                                         <Link to={'/login'} className='btn btn-salmon me-2 text-light'>Login</Link>
                                         <Link to={'/register'} className='btn btn-salmon text-light'>Register</Link>
-
                                     </div>
                                 </li>
                             </ul>
@@ -81,7 +80,7 @@ const Navbar = () => {
                                 <li>
                                     <a class="navbar-brand d-none d-lg-block" aria-current="page" href="#">LetsBUY!</a>
                                 </li>
-                                <li className='me-auto ms-4'>
+                                <li className='mx-auto ms-4'>
                                     <Link to={'/'} className=" no-link m-0 p-0" href="#">Home</Link>
                                 </li>
                                 <li>
