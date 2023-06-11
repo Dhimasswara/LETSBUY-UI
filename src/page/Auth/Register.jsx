@@ -36,7 +36,10 @@ const Register = () => {
         }
 
         if (isSuccess) {
-            successLoading('Register Success, login chatting with your friends 😍')
+            Swal.fire({
+                title: 'Register Success',
+                icon: 'success',
+            });
             setData({
                 fullname: '',
                 email: '',
